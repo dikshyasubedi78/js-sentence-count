@@ -4,11 +4,12 @@ console.log(`Given string : ${my}`)
 console.log(`string to array  : ${arrayOfText}`)
 console.log(`count: ${arrayOfText.length}`)
 var count = arrayOfText.length;
-for(var i=1; i<=count; i++){
+for(var i=0; i<arrayOfText.length; i++){
 if(arrayOfText[i] == ""){
-var counta = count- 1;
-count=counta;
+count--;
+
 }
+
 }
-console.log(`total number of sentence are: ${counta}`);
-///link https://jsfiddle.net/dikshya/beotprk8/84/
+console.log(`total number of sentence are: ${count}`);
+//link https://jsfiddle.net/dikshya/beotprk8/137/
